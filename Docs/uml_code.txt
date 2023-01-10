@@ -1,0 +1,42 @@
+@startuml
+center header <font color=black size=15>Tent House Rental</font>
+
+entity "user" {
+ *id : BIGINT<<pk>>
+ *first_name : VARCHAR(30)
+ *last_name :VARCHAR(30)
+ *email : email(80)
+ *password : VARCHAR(50) 
+ *created_at : DATETIME()
+ *updated_at : DATETIME()
+}
+
+entity "product" {
+ *id : BIGINT<<pk>>
+ --
+ *title : VARCHAR(60)
+ *price : DECIMAL(10,2)
+ *quantity_total : INT
+ *quantity_booked : INT
+*quantity_available:INT
+ *created_at : DATETIME()
+ *updated_at : DATETIME()
+}
+
+
+
+entity "transaction" {
+ *id : BIGINT<<pk>>
+ --
+ *customer_id : BIGINT<<fk>>
+ *product_id : BIGINT<<fk>>
+ *quantity : INT
+ *transaction_type : VARCHAR(60)
+ *created_at : DATETIME()
+ *updated_at : DATETIME()
+}
+
+product ||--|{ transaction
+
+user ||--|{ transaction
+@enduml

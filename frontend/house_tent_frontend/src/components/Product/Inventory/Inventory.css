@@ -1,0 +1,74 @@
+.inventory {
+  min-height: 100vh;
+}
+
+.download {
+  /* appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; */
+  margin-top: 5%;
+}
+
+
+
+.download {
+  transform: scale(1.025);
+}
+
+.inventory-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  width: 70%;
+  margin-top: 6%;
+  margin-left: 15%;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.inventory-table td,
+.inventory-table th {
+  text-align: center;
+  padding: 1.5vh;
+  font-size: 1.5rem;
+}
+
+.inventory-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 1rem;
+}
+
+.inventory-table thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.inventory-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.inventory-table tr:nth-child(even) {
+  background: rgb(227, 236, 236);
+}

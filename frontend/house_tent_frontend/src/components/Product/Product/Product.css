@@ -1,0 +1,90 @@
+.product {
+  min-height: 100vh;
+}
+.paginationBttns {
+  width: 95%;
+  height: 5%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 10%;
+}
+
+.paginationBttns a {
+  margin: 1vh;
+  padding: 1vh;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: #324960;
+}
+
+.product-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  width: 70%;
+  margin: auto;
+  padding: auto;
+  margin-top: 6%;
+  margin-left: 12%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.product-table td,
+.product-table th {
+  text-align: center;
+  padding: 1.5vh;
+  font-size: 1.5rem;
+}
+
+.product-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 1rem;
+}
+
+.product-table thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.product-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.product-table tr:nth-child(even) {
+  background: rgb(227, 236, 236);
+}
+
+button {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  background-color: #4fc3a1;
+  border: none;
+  cursor: pointer;
+}

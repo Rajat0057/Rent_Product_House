@@ -1,0 +1,155 @@
+.profile {
+  min-height: 100vh;
+}
+.profile-table {
+  overflow: hidden;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  width: 70%;
+  margin: auto;
+  padding: auto;
+  margin-top: 1%;
+  margin-left: 7%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.profile-table td,
+.profile-table th {
+  text-align: center;
+  padding: 1vh;
+  font-size: 1.5rem;
+}
+
+.profile-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 1rem;
+}
+
+.profile-table thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.profile-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.profile-table tr:nth-child(even) {
+  background: rgb(227, 236, 236);
+}
+
+.paginationBttns {
+  width: 75%;
+  height: 5%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.paginationBttns a {
+  margin: 1vh;
+  padding: 1vh;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: #324960;
+}
+.my-details {
+  color: rgb(20, 46, 36);
+  margin-right: 70%;
+  font-size: 1rem;
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.my-profile {
+  margin-right: 78%;
+  color: rgb(20, 46, 36);
+  font-weight: bold;
+  margin-top: 1%;
+}
+.transaction-heading {
+  font-size: large;
+  margin-top: 10%;
+  padding: 10%;
+}
+.small-box {
+  background-image: linear-gradient(#141e30, #243b55);
+  width: 10%;
+  height: 15%;
+  padding: 1%;
+  margin-left: 6%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+.full-name {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.email-name {
+  font-size: 0.8rem;
+  color: white;
+}
+.no-data {
+  height: 1%;
+  padding: 1%;
+  background-color: #243b55;
+  color: white;
+  width: 15%;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+/* .red{
+  background-color: #324960;
+} */
+
+/* .button2 {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+} */
+
+/* .green-box{
+  background-color: #2bbcff;
+}
+
+.red-box{
+  background-color:red;
+  
+}
+
+.button{
+background-color: #c7ab31;
+} */
